@@ -1,4 +1,4 @@
-lockfileVersion: '6.1'
+lockfileVersion: '6.0'
 
 settings:
   autoInstallPeers: true
@@ -56,8 +56,8 @@ devDependencies:
     specifier: ^9.4.2
     version: 9.4.2(@nestjs/common@9.4.2)(@nestjs/core@9.4.2)
   '@nestjs/schedule':
-    specifier: ^2.2.0
-    version: 2.2.2(@nestjs/common@9.4.2)(@nestjs/core@9.4.2)(reflect-metadata@0.1.13)
+    specifier: ^3.0.0
+    version: 3.0.0(@nestjs/common@9.4.2)(@nestjs/core@9.4.2)(reflect-metadata@0.1.13)
   '@nestjs/schematics':
     specifier: ^9.0.4
     version: 9.2.0(typescript@5.0.2)
@@ -1153,16 +1153,16 @@ packages:
     transitivePeerDependencies:
       - supports-color
 
-  /@nestjs/schedule@2.2.2(@nestjs/common@9.4.2)(@nestjs/core@9.4.2)(reflect-metadata@0.1.13):
-    resolution: {integrity: sha512-e9z1bbFwi4QsPkR2ix72OABhBlfRQcl4ZjF8LShlefOskR4ySN4rUzJilH+1rk8vORYDyGDurVdeduPyyfSQRg==}
+  /@nestjs/schedule@3.0.0(@nestjs/common@9.4.2)(@nestjs/core@9.4.2)(reflect-metadata@0.1.13):
+    resolution: {integrity: sha512-x34wi/Jqmm16CmR4KnN9yj1jCUP8tOoxoIrzBIc7hkgP16vw614mnaQXC3NVLT/e74v937tV/4ezHs652Ju60Q==}
     peerDependencies:
-      '@nestjs/common': ^7.0.0 || ^8.0.0 || ^9.0.0
-      '@nestjs/core': ^7.0.0 || ^8.0.0 || ^9.0.0
+      '@nestjs/common': ^8.0.0 || ^9.0.0 || ^10.0.0
+      '@nestjs/core': ^8.0.0 || ^9.0.0 || ^10.0.0
       reflect-metadata: ^0.1.12
     dependencies:
       '@nestjs/common': 9.4.2(reflect-metadata@0.1.13)(rxjs@7.8.1)
       '@nestjs/core': 9.4.2(@nestjs/common@9.4.2)(@nestjs/platform-express@9.4.2)(reflect-metadata@0.1.13)(rxjs@7.8.1)
-      cron: 2.3.0
+      cron: 2.3.1
       reflect-metadata: 0.1.13
       uuid: 9.0.0
     dev: true
@@ -3897,8 +3897,8 @@ packages:
     resolution: {integrity: sha512-dcKFX3jn0MpIaXjisoRvexIJVEKzaq7z2rZKxf+MSr9TkdmHmsU4m2lcLojrj/FHl8mk5VxMmYA+ftRkP/3oKQ==}
     dev: true
 
-  /cron@2.3.0:
-    resolution: {integrity: sha512-ZN5HP8zDY41sJolMsbc+GksRATcbvkPKF5wR/qc8FrV4NBVi9ORQa1HmYa5GydaysUB80X9XpRlRkooa5uEtTA==}
+  /cron@2.3.1:
+    resolution: {integrity: sha512-1eRRlIT0UfIqauwbG9pkg3J6CX9A6My2ytJWqAXoK0T9oJnUZTzGBNPxao0zjodIbPgf8UQWjE62BMb9eVllSQ==}
     dependencies:
       luxon: 3.3.0
     dev: true

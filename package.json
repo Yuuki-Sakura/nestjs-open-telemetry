@@ -65,7 +65,7 @@
     "@antfu/eslint-config": "^0.39.0",
     "@nestjs/cli": "^9.2.0",
     "@nestjs/platform-express": "^9.4.2",
-    "@nestjs/schedule": "^2.2.0",
+    "@nestjs/schedule": "^3.0.0",
     "@nestjs/schematics": "^9.0.4",
     "@nestjs/testing": "^9.3.9",
     "@types/jest": "^29.4.0",
