@@ -9,7 +9,7 @@ dependencies:
     specifier: ^1.4.1
     version: 1.4.1
   '@opentelemetry/auto-instrumentations-node':
-    specifier: ^0.39.1
+    specifier: ^0.39.1 || ^0.43.0
     version: 0.39.1(@opentelemetry/api@1.4.1)
   '@opentelemetry/context-async-hooks':
     specifier: ^1.15.2
@@ -6812,6 +6812,7 @@ packages:
   /path-is-absolute@1.0.1:
     resolution: {integrity: sha512-AVbw3UJ2e9bq64vSaS9Am0fje1Pa8pbGqTTsmXfaIiMpnr5DlDhfJOuLj9Sf95ZPVDAUerDfEk88MPmPe7UCQg==}
     engines: {node: '>=0.10.0'}
+    requiresBuild: true
     dev: true
 
   /path-key@3.1.1:
@@ -7515,9 +7516,6 @@ packages:
   /sqlite3@5.1.6:
     resolution: {integrity: sha512-olYkWoKFVNSSSQNvxVUfjiVbz3YtBwTJj+mfV5zpHmqW3sELx2Cf4QCdirMelhM5Zh+KDVaKgQHqCxrqiWHybw==}
     requiresBuild: true
-    peerDependenciesMeta:
-      node-gyp:
-        optional: true
     dependencies:
       '@mapbox/node-pre-gyp': 1.0.11
       node-addon-api: 4.3.0
