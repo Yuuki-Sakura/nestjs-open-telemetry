@@ -52,7 +52,7 @@
     "@opentelemetry/sdk-trace-base": "^1.22.0",
     "@opentelemetry/semantic-conventions": "^1.22.0",
     "fast-glob": "^3.3.1",
-    "reflect-metadata": "^0.1.13",
+    "reflect-metadata": "^0.1.13 || ^0.2.0",
     "typeorm": "^0.3.0"
   },
   "peerDependenciesMeta": {
