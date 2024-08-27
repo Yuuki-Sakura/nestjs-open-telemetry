@@ -67,7 +67,7 @@
     }
   },
   "devDependencies": {
-    "@antfu/eslint-config": "2.8.1",
+    "@antfu/eslint-config": "2.27.3",
     "@nestjs/cli": "^10.3.2",
     "@nestjs/common": "^10.3.3",
     "@nestjs/core": "^10.3.3",
