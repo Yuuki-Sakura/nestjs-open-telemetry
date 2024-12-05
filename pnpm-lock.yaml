@@ -9,7 +9,7 @@ dependencies:
     specifier: ^1.8.0
     version: 1.8.0
   '@opentelemetry/auto-instrumentations-node':
-    specifier: ^0.43.0
+    specifier: ^0.43.0 || ^0.54.0
     version: 0.43.0(@opentelemetry/api@1.8.0)
   '@opentelemetry/context-async-hooks':
     specifier: ^1.22.0
@@ -5491,6 +5491,7 @@ packages:
 
   /inflight@1.0.6:
     resolution: {integrity: sha512-k92I/b08q4wvFscXCLvqfsHCrjrF7yiXsQuIVvVE7N82W3+aqpzuUdBbfhWcy/FZR3/4IgflMgKLOsvPDrGCJA==}
+    requiresBuild: true
     dependencies:
       once: 1.4.0
       wrappy: 1.0.2
@@ -7945,9 +7946,6 @@ packages:
   /sqlite3@5.1.7:
     resolution: {integrity: sha512-GGIyOiFaG+TUra3JIfkI/zGP8yZYLPQ0pl1bH+ODjiX57sPhrLU5sQJn1y9bDKZUFYkX1crlrPfSYt0BKKdkog==}
     requiresBuild: true
-    peerDependenciesMeta:
-      node-gyp:
-        optional: true
     dependencies:
       bindings: 1.5.0
       node-addon-api: 7.1.0
