@@ -48,7 +48,7 @@
     "@opentelemetry/core": "^1.29.0",
     "@opentelemetry/resource-detector-container": "^0.5.2",
     "@opentelemetry/resources": "^1.29.0",
-    "@opentelemetry/sdk-node": "^0.56.0",
+    "@opentelemetry/sdk-node": "^0.56.0 || ^0.57.0",
     "@opentelemetry/sdk-trace-base": "^1.29.0",
     "@opentelemetry/semantic-conventions": "^1.28.0",
     "fast-glob": "^3.3.2",
