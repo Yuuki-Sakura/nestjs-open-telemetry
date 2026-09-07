@@ -46,7 +46,7 @@
     "@opentelemetry/auto-instrumentations-node": "^0.54.0",
     "@opentelemetry/context-async-hooks": "^1.29.0",
     "@opentelemetry/core": "^1.29.0",
-    "@opentelemetry/resource-detector-container": "^0.5.2",
+    "@opentelemetry/resource-detector-container": "^0.5.2 || ^0.8.0",
     "@opentelemetry/resources": "^1.29.0",
     "@opentelemetry/sdk-node": "^0.56.0",
     "@opentelemetry/sdk-trace-base": "^1.29.0",
